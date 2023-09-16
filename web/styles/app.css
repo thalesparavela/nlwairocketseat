@@ -4,23 +4,23 @@
   flex-direction: column;
   align-items: center;
 }
-#app > h1{
+#app > h1 {
   color: #996dff;
   margin-top: -5px;
 }
-#app > img{
-  width: 64px;
-}
-#app > h2{
+
+#app > h2 {
   align-self: flex-start;
-  margin-top: 104px;
+  margin-top: 64px;
 }
-#app > p{
+#app > p {
+  margin-top: -5px;
   align-self: flex-start;
   text-align: justify;
   width: 512px;
 }
-#app .placeholder{/*classe para usar em diferentes elementos*/
+#app .placeholder {
+  /*classe para usar em diferentes elementos*/
   color: #7c7c8a;
-  user-select: none;/*usuário não pode selecionar o texto */
+  user-select: none; /*usuário não pode selecionar o texto */
 }
